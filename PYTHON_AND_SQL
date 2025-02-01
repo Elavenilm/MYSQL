@@ -1,7 +1,7 @@
 from tabulate import tabulate
 import mysql.connector
 
-cont=mysql.connector.connect(host="localhost",user="root",password="elavenil",database="education")
+cont=mysql.connector.connect(host="localhost",user="root",password="user",database="education")
 
 def insert(name,age,grade,roll_no):
     res=cont.cursor()
